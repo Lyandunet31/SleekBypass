@@ -7,6 +7,10 @@ First Add this to your code
 ```lua
 local sleekapi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lyandunet31/SleekBypass/refs/heads/main/assets/BypassApi.lua",true))()
 ```
+# IF YOU ALREADY EXECUTED SLEEKBYPASS ONCE PLEASE USE THIS SCRIPT FOR THE API
+```lua
+local sleekapi = loadstring(readfile("sleekbypassassets/api.lua"))()
+```
 # FUNCTIONS
 ```lua
 sleekapi:typeChat(string)
